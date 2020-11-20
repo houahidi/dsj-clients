@@ -1,0 +1,71 @@
+<xs:schema xmlns:tns="http://localhost:9000/CalculatriceService" xmlns:xs="http://www.w3.org/2001/XMLSchema" elementFormDefault="unqualified" targetNamespace="http://localhost:9000/CalculatriceService" version="1.0">
+
+  <xs:element name="RequestEnvelope" type="tns:RequestEnvelope"/>
+
+  <xs:element name="ResponseEnvelope" type="tns:ResponseEnvelope"/>
+
+  <xs:element name="diviser" type="tns:diviser"/>
+
+  <xs:element name="diviserResponse" type="tns:diviserResponse"/>
+
+  <xs:element name="multiplier" type="tns:multiplier"/>
+
+  <xs:element name="multiplierResponse" type="tns:multiplierResponse"/>
+
+  <xs:element name="soustraire" type="tns:soustraire"/>
+
+  <xs:element name="soustraireResponse" type="tns:soustraireResponse"/>
+
+  <xs:complexType name="diviser">
+    <xs:sequence>
+      <xs:element name="arg0" type="xs:double"/>
+      <xs:element name="arg1" type="xs:double"/>
+    </xs:sequence>
+  </xs:complexType>
+
+  <xs:complexType name="diviserResponse">
+    <xs:sequence>
+      <xs:element name="return" type="xs:double"/>
+    </xs:sequence>
+  </xs:complexType>
+
+  <xs:complexType name="soustraire">
+    <xs:sequence>
+      <xs:element name="arg0" type="xs:double"/>
+      <xs:element name="arg1" type="xs:double"/>
+    </xs:sequence>
+  </xs:complexType>
+
+  <xs:complexType name="soustraireResponse">
+    <xs:sequence>
+      <xs:element name="return" type="xs:double"/>
+    </xs:sequence>
+  </xs:complexType>
+
+  <xs:complexType name="multiplier">
+    <xs:sequence>
+      <xs:element name="arg0" type="xs:double"/>
+      <xs:element name="arg1" type="xs:double"/>
+    </xs:sequence>
+  </xs:complexType>
+
+  <xs:complexType name="multiplierResponse">
+    <xs:sequence>
+      <xs:element name="return" type="xs:double"/>
+    </xs:sequence>
+  </xs:complexType>
+
+  <xs:complexType name="RequestEnvelope">
+    <xs:sequence>
+      <xs:element name="Operande1" type="xs:double"/>
+      <xs:element name="Operande2" type="xs:double"/>
+    </xs:sequence>
+  </xs:complexType>
+
+  <xs:complexType name="ResponseEnvelope">
+    <xs:sequence>
+      <xs:element name="Result" type="xs:double"/>
+    </xs:sequence>
+  </xs:complexType>
+
+</xs:schema>

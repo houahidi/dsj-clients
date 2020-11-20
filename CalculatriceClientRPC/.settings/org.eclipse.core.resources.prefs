@@ -1,0 +1,5 @@
+eclipse.preferences.version=1
+encoding//src/fr/carsat/service/soap/rpc/CalculatriceContrat.java=UTF-8
+encoding//src/fr/carsat/service/soap/rpc/CalculatriceService.java=UTF-8
+encoding//src/fr/carsat/service/soap/rpc/CalculatriceServiceLocator.java=UTF-8
+encoding//src/fr/carsat/service/soap/rpc/CalculatriceServicePortBindingStub.java=UTF-8

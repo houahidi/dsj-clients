@@ -1,0 +1,14 @@
+eclipse.preferences.version=1
+encoding//src/fr/carsat/service/soap/document/CalculatriceContrat.java=UTF-8
+encoding//src/fr/carsat/service/soap/document/CalculatriceService.java=UTF-8
+encoding//src/fr/carsat/service/soap/document/CalculatriceServiceLocator.java=UTF-8
+encoding//src/fr/carsat/service/soap/document/CalculatriceServicePortBindingStub.java=UTF-8
+encoding//src/fr/carsat/service/soap/document/ReponseAddition.java=UTF-8
+encoding//src/fr/carsat/service/soap/document/ReponseDivision.java=UTF-8
+encoding//src/fr/carsat/service/soap/document/ReponseMultiplication.java=UTF-8
+encoding//src/fr/carsat/service/soap/document/ReponseSoustraction.java=UTF-8
+encoding//src/fr/carsat/service/soap/document/RequeteAddition.java=UTF-8
+encoding//src/fr/carsat/service/soap/document/RequeteDivision.java=UTF-8
+encoding//src/fr/carsat/service/soap/document/RequeteMultiplication.java=UTF-8
+encoding//src/fr/carsat/service/soap/document/RequeteNotification.java=UTF-8
+encoding//src/fr/carsat/service/soap/document/RequeteSoustraction.java=UTF-8
